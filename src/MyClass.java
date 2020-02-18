@@ -15,7 +15,7 @@ public class MyClass {
                 "1. Addition"+'\n'+
                 "2. Subtraction"+'\n'+
                 "3. Multiplication"+'\n'+
-                "4. Division");
+                "4. Division"+'\n'+"5. Exit");
 
         // the scanner used to get the option from the user
         x = scan.nextDouble();
@@ -57,6 +57,11 @@ public class MyClass {
             z = scan.nextDouble();
             ans = y/z;
             System.out.println("The answer of the division of "+y+" and "+z+" is: "+ans);
+        }
+        
+        else if (x==5){
+        System.exit();
+        
         }
 
       else{
